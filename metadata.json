@@ -1,0 +1,6 @@
+{
+  "name": "TripWise",
+  "description": "Smart travel comparison platform to plan your journey and compare transportation, hotels, weather, and costs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
