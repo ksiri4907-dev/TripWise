@@ -26,6 +26,7 @@ import { Dashboard } from './components/Dashboard';
 import { FeedbackForm } from './components/FeedbackForm';
 import { TransportDetailModal } from './components/TransportDetailModal';
 import { HotelDetailModal } from './components/HotelDetailModal';
+import { ChatWidget } from './components/ChatWidget';
 import {
   HotelOption,
   SavedTrip,
@@ -630,6 +631,12 @@ export default function App() {
           </div>
         </div>
       </footer>
+
+      {/* Floating n8n AI Chatbot Widget */}
+      <ChatWidget
+        currentTrip={currentResult}
+        activeQuery={currentQuery}
+      />
     </div>
   );
 }
